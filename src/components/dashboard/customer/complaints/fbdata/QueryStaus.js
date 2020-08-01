@@ -1,0 +1,43 @@
+import React, { Component, useState } from 'react'
+import { connect } from 'react-redux'
+import { MDBInput, MDBBtn } from 'mdbreact'
+import "firebase/database";
+import "firebase/auth";
+
+import firebase from 'firebase'
+
+export const QueryStatus = ({i}) => {
+    const[status,setqueryStatus] = useState(i.status)
+  
+
+    const updateHandler = () =>{
+        const db =firebase.firestore()
+        db.collection('queries').doc(i.id).set({...i,status})
+    }
+    
+
+    return (
+        <div>
+          
+            <MDBInput
+            value={status}
+            onChange={  e => { setqueryStatus(e.target.value) }  }
+            />
+            <MDBBtn
+            className="btn btn-danger btn-rounded btn-sm my-0"
+             type="submit"
+            onClick={updateHandler}>update</MDBBtn>
+        
+        </div>
+    )
+}
+
+const mapStateToProps = (state) => ({
+    
+})
+
+const mapDispatchToProps = {
+    
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(QueryStatus)
