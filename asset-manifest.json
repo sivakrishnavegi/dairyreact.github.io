@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/DairyReactRedux/static/css/main.8acfa7dc.chunk.css",
+    "main.js": "/DairyReactRedux/static/js/main.b2469bc0.chunk.js",
+    "main.js.map": "/DairyReactRedux/static/js/main.b2469bc0.chunk.js.map",
+    "runtime-main.js": "/DairyReactRedux/static/js/runtime-main.e3e3300a.js",
+    "runtime-main.js.map": "/DairyReactRedux/static/js/runtime-main.e3e3300a.js.map",
+    "static/css/2.f7daa5b4.chunk.css": "/DairyReactRedux/static/css/2.f7daa5b4.chunk.css",
+    "static/js/2.95c4d561.chunk.js": "/DairyReactRedux/static/js/2.95c4d561.chunk.js",
+    "static/js/2.95c4d561.chunk.js.map": "/DairyReactRedux/static/js/2.95c4d561.chunk.js.map",
+    "index.html": "/DairyReactRedux/index.html",
+    "precache-manifest.c1b482101181e40cc4d77ec507ae161d.js": "/DairyReactRedux/precache-manifest.c1b482101181e40cc4d77ec507ae161d.js",
+    "service-worker.js": "/DairyReactRedux/service-worker.js",
+    "static/css/2.f7daa5b4.chunk.css.map": "/DairyReactRedux/static/css/2.f7daa5b4.chunk.css.map",
+    "static/css/main.8acfa7dc.chunk.css.map": "/DairyReactRedux/static/css/main.8acfa7dc.chunk.css.map",
+    "static/js/2.95c4d561.chunk.js.LICENSE.txt": "/DairyReactRedux/static/js/2.95c4d561.chunk.js.LICENSE.txt",
+    "static/media/login.png": "/DairyReactRedux/static/media/login.b84e11f2.png",
+    "static/media/notifications.css": "/DairyReactRedux/static/media/notification.c0d3c94c.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3e3300a.js",
+    "static/css/2.f7daa5b4.chunk.css",
+    "static/js/2.95c4d561.chunk.js",
+    "static/css/main.8acfa7dc.chunk.css",
+    "static/js/main.b2469bc0.chunk.js"
+  ]
+}
